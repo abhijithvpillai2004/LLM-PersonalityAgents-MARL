@@ -1,0 +1,352 @@
+[
+  {
+    "video_file": "A0_ep1.mp4",
+    "animation_file": "A0_ep1.gif",
+    "config_code": "A0",
+    "episode": 1,
+    "agent_id": "Agent_0_HighE"
+  },
+  {
+    "video_file": "A0_ep2.mp4",
+    "animation_file": "A0_ep2.gif",
+    "config_code": "A0",
+    "episode": 2,
+    "agent_id": "Agent_0_HighE"
+  },
+  {
+    "video_file": "A0_ep3.mp4",
+    "animation_file": "A0_ep3.gif",
+    "config_code": "A0",
+    "episode": 3,
+    "agent_id": "Agent_0_HighE"
+  },
+  {
+    "video_file": "A0_ep4.mp4",
+    "animation_file": "A0_ep4.gif",
+    "config_code": "A0",
+    "episode": 4,
+    "agent_id": "Agent_0_HighE"
+  },
+  {
+    "video_file": "A0_ep5.mp4",
+    "animation_file": "A0_ep5.gif",
+    "config_code": "A0",
+    "episode": 5,
+    "agent_id": "Agent_0_HighE"
+  },
+  {
+    "video_file": "A0_ep6.mp4",
+    "animation_file": "A0_ep6.gif",
+    "config_code": "A0",
+    "episode": 6,
+    "agent_id": "Agent_0_HighE"
+  },
+  {
+    "video_file": "A0_ep7.mp4",
+    "animation_file": "A0_ep7.gif",
+    "config_code": "A0",
+    "episode": 7,
+    "agent_id": "Agent_0_HighE"
+  },
+  {
+    "video_file": "A0_ep8.mp4",
+    "animation_file": "A0_ep8.gif",
+    "config_code": "A0",
+    "episode": 8,
+    "agent_id": "Agent_0_HighE"
+  },
+  {
+    "video_file": "A0_ep9.mp4",
+    "animation_file": "A0_ep9.gif",
+    "config_code": "A0",
+    "episode": 9,
+    "agent_id": "Agent_0_HighE"
+  },
+  {
+    "video_file": "A0_ep10.mp4",
+    "animation_file": "A0_ep10.gif",
+    "config_code": "A0",
+    "episode": 10,
+    "agent_id": "Agent_0_HighE"
+  },
+  {
+    "video_file": "A1_ep1.mp4",
+    "animation_file": "A1_ep1.gif",
+    "config_code": "A1",
+    "episode": 1,
+    "agent_id": "Agent_1_LowE"
+  },
+  {
+    "video_file": "A1_ep2.mp4",
+    "animation_file": "A1_ep2.gif",
+    "config_code": "A1",
+    "episode": 2,
+    "agent_id": "Agent_1_LowE"
+  },
+  {
+    "video_file": "A1_ep3.mp4",
+    "animation_file": "A1_ep3.gif",
+    "config_code": "A1",
+    "episode": 3,
+    "agent_id": "Agent_1_LowE"
+  },
+  {
+    "video_file": "A1_ep4.mp4",
+    "animation_file": "A1_ep4.gif",
+    "config_code": "A1",
+    "episode": 4,
+    "agent_id": "Agent_1_LowE"
+  },
+  {
+    "video_file": "A1_ep5.mp4",
+    "animation_file": "A1_ep5.gif",
+    "config_code": "A1",
+    "episode": 5,
+    "agent_id": "Agent_1_LowE"
+  },
+  {
+    "video_file": "A1_ep6.mp4",
+    "animation_file": "A1_ep6.gif",
+    "config_code": "A1",
+    "episode": 6,
+    "agent_id": "Agent_1_LowE"
+  },
+  {
+    "video_file": "A1_ep7.mp4",
+    "animation_file": "A1_ep7.gif",
+    "config_code": "A1",
+    "episode": 7,
+    "agent_id": "Agent_1_LowE"
+  },
+  {
+    "video_file": "A1_ep8.mp4",
+    "animation_file": "A1_ep8.gif",
+    "config_code": "A1",
+    "episode": 8,
+    "agent_id": "Agent_1_LowE"
+  },
+  {
+    "video_file": "A1_ep9.mp4",
+    "animation_file": "A1_ep9.gif",
+    "config_code": "A1",
+    "episode": 9,
+    "agent_id": "Agent_1_LowE"
+  },
+  {
+    "video_file": "A1_ep10.mp4",
+    "animation_file": "A1_ep10.gif",
+    "config_code": "A1",
+    "episode": 10,
+    "agent_id": "Agent_1_LowE"
+  },
+  {
+    "video_file": "A2_ep1.mp4",
+    "animation_file": "A2_ep1.gif",
+    "config_code": "A2",
+    "episode": 1,
+    "agent_id": "Agent_2_HighA"
+  },
+  {
+    "video_file": "A2_ep2.mp4",
+    "animation_file": "A2_ep2.gif",
+    "config_code": "A2",
+    "episode": 2,
+    "agent_id": "Agent_2_HighA"
+  },
+  {
+    "video_file": "A2_ep3.mp4",
+    "animation_file": "A2_ep3.gif",
+    "config_code": "A2",
+    "episode": 3,
+    "agent_id": "Agent_2_HighA"
+  },
+  {
+    "video_file": "A2_ep4.mp4",
+    "animation_file": "A2_ep4.gif",
+    "config_code": "A2",
+    "episode": 4,
+    "agent_id": "Agent_2_HighA"
+  },
+  {
+    "video_file": "A2_ep5.mp4",
+    "animation_file": "A2_ep5.gif",
+    "config_code": "A2",
+    "episode": 5,
+    "agent_id": "Agent_2_HighA"
+  },
+  {
+    "video_file": "A2_ep6.mp4",
+    "animation_file": "A2_ep6.gif",
+    "config_code": "A2",
+    "episode": 6,
+    "agent_id": "Agent_2_HighA"
+  },
+  {
+    "video_file": "A2_ep7.mp4",
+    "animation_file": "A2_ep7.gif",
+    "config_code": "A2",
+    "episode": 7,
+    "agent_id": "Agent_2_HighA"
+  },
+  {
+    "video_file": "A2_ep8.mp4",
+    "animation_file": "A2_ep8.gif",
+    "config_code": "A2",
+    "episode": 8,
+    "agent_id": "Agent_2_HighA"
+  },
+  {
+    "video_file": "A2_ep9.mp4",
+    "animation_file": "A2_ep9.gif",
+    "config_code": "A2",
+    "episode": 9,
+    "agent_id": "Agent_2_HighA"
+  },
+  {
+    "video_file": "A2_ep10.mp4",
+    "animation_file": "A2_ep10.gif",
+    "config_code": "A2",
+    "episode": 10,
+    "agent_id": "Agent_2_HighA"
+  },
+  {
+    "video_file": "A3_ep1.mp4",
+    "animation_file": "A3_ep1.gif",
+    "config_code": "A3",
+    "episode": 1,
+    "agent_id": "Agent_3_LowA"
+  },
+  {
+    "video_file": "A3_ep2.mp4",
+    "animation_file": "A3_ep2.gif",
+    "config_code": "A3",
+    "episode": 2,
+    "agent_id": "Agent_3_LowA"
+  },
+  {
+    "video_file": "A3_ep3.mp4",
+    "animation_file": "A3_ep3.gif",
+    "config_code": "A3",
+    "episode": 3,
+    "agent_id": "Agent_3_LowA"
+  },
+  {
+    "video_file": "A3_ep4.mp4",
+    "animation_file": "A3_ep4.gif",
+    "config_code": "A3",
+    "episode": 4,
+    "agent_id": "Agent_3_LowA"
+  },
+  {
+    "video_file": "A3_ep5.mp4",
+    "animation_file": "A3_ep5.gif",
+    "config_code": "A3",
+    "episode": 5,
+    "agent_id": "Agent_3_LowA"
+  },
+  {
+    "video_file": "A3_ep6.mp4",
+    "animation_file": "A3_ep6.gif",
+    "config_code": "A3",
+    "episode": 6,
+    "agent_id": "Agent_3_LowA"
+  },
+  {
+    "video_file": "A3_ep7.mp4",
+    "animation_file": "A3_ep7.gif",
+    "config_code": "A3",
+    "episode": 7,
+    "agent_id": "Agent_3_LowA"
+  },
+  {
+    "video_file": "A3_ep8.mp4",
+    "animation_file": "A3_ep8.gif",
+    "config_code": "A3",
+    "episode": 8,
+    "agent_id": "Agent_3_LowA"
+  },
+  {
+    "video_file": "A3_ep9.mp4",
+    "animation_file": "A3_ep9.gif",
+    "config_code": "A3",
+    "episode": 9,
+    "agent_id": "Agent_3_LowA"
+  },
+  {
+    "video_file": "A3_ep10.mp4",
+    "animation_file": "A3_ep10.gif",
+    "config_code": "A3",
+    "episode": 10,
+    "agent_id": "Agent_3_LowA"
+  },
+  {
+    "video_file": "LLM_ep1.mp4",
+    "animation_file": "LLM_ep1.gif",
+    "config_code": "LLM",
+    "episode": 1,
+    "agent_id": "LivePolicyAgent"
+  },
+  {
+    "video_file": "LLM_ep2.mp4",
+    "animation_file": "LLM_ep2.gif",
+    "config_code": "LLM",
+    "episode": 2,
+    "agent_id": "LivePolicyAgent"
+  },
+  {
+    "video_file": "LLM_ep3.mp4",
+    "animation_file": "LLM_ep3.gif",
+    "config_code": "LLM",
+    "episode": 3,
+    "agent_id": "LivePolicyAgent"
+  },
+  {
+    "video_file": "LLM_ep4.mp4",
+    "animation_file": "LLM_ep4.gif",
+    "config_code": "LLM",
+    "episode": 4,
+    "agent_id": "LivePolicyAgent"
+  },
+  {
+    "video_file": "LLM_ep5.mp4",
+    "animation_file": "LLM_ep5.gif",
+    "config_code": "LLM",
+    "episode": 5,
+    "agent_id": "LivePolicyAgent"
+  },
+  {
+    "video_file": "LLM_ep6.mp4",
+    "animation_file": "LLM_ep6.gif",
+    "config_code": "LLM",
+    "episode": 6,
+    "agent_id": "LivePolicyAgent"
+  },
+  {
+    "video_file": "LLM_ep7.mp4",
+    "animation_file": "LLM_ep7.gif",
+    "config_code": "LLM",
+    "episode": 7,
+    "agent_id": "LivePolicyAgent"
+  },
+  {
+    "video_file": "LLM_ep8.mp4",
+    "animation_file": "LLM_ep8.gif",
+    "config_code": "LLM",
+    "episode": 8,
+    "agent_id": "LivePolicyAgent"
+  },
+  {
+    "video_file": "LLM_ep9.mp4",
+    "animation_file": "LLM_ep9.gif",
+    "config_code": "LLM",
+    "episode": 9,
+    "agent_id": "LivePolicyAgent"
+  },
+  {
+    "video_file": "LLM_ep10.mp4",
+    "animation_file": "LLM_ep10.gif",
+    "config_code": "LLM",
+    "episode": 10,
+    "agent_id": "LivePolicyAgent"
+  }
+]

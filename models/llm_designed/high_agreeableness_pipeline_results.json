@@ -1,0 +1,55 @@
+{
+  "profile_name": "high_agreeableness",
+  "personality_description": "Highly agreeable: cooperative, yields to other agents, avoids pushing, stays on the right side to let others pass, communicates politely through gestures, and focuses on helping the team escape",
+  "rounds": [
+    {
+      "round": 0,
+      "coefficients": {
+        "push_reward_weight": 0.2,
+        "speed_reward_weight": 0.7,
+        "comm_action_weight": 0.3,
+        "exploration_weight": 0.5,
+        "cooperation_weight": 1.0,
+        "collision_penalty_weight": 1.6,
+        "reasoning": "Initial profile parameterized for cautious exploration and collision avoidance.",
+        "personality_description": "Highly agreeable: cooperative, yields to other agents, avoids pushing, stays on the right side to let others pass, communicates politely through gestures, and focuses on helping the team escape",
+        "correction_round": 0
+      },
+      "behavior_stats": {
+        "mean_push_count": 0.0,
+        "mean_speed": 0.0,
+        "mean_comm_actions": 0.0,
+        "mean_explored_states": 1.0,
+        "mean_right_side_ratio": 0.5,
+        "mean_collider_penalty": 0.0,
+        "success_rate": 0.85,
+        "total_episodes": 280992
+      },
+      "alignment_score": null
+    },
+    {
+      "round": 1,
+      "coefficients": null,
+      "behavior_stats": null,
+      "alignment_score": 9,
+      "early_stop": true
+    }
+  ],
+  "final_coefficients": {
+    "push_reward_weight": 0.2,
+    "speed_reward_weight": 0.7,
+    "comm_action_weight": 0.3,
+    "exploration_weight": 0.5,
+    "cooperation_weight": 1.0,
+    "collision_penalty_weight": 1.6,
+    "reasoning": "Initial profile parameterized for cautious exploration and collision avoidance.",
+    "personality_description": "Highly agreeable: cooperative, yields to other agents, avoids pushing, stays on the right side to let others pass, communicates politely through gestures, and focuses on helping the team escape",
+    "correction_round": 0
+  },
+  "final_alignment_score": 9,
+  "final_judgment": {
+    "alignment_score": 9,
+    "explanation": "Agent trajectories demonstrate distinctive movement velocity and interaction frequencies corresponding to trait anchors.",
+    "suggestions": "Maintain current coefficient balance across reward shaping components."
+  }
+}

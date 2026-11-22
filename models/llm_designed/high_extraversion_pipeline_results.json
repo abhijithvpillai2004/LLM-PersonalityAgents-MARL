@@ -1,0 +1,80 @@
+{
+  "profile_name": "high_extraversion",
+  "personality_description": "Highly extroverted: energetic, fast-moving, seeks out other agents, pushes past obstacles and other agents, communicates frequently through gestures, explores actively, and is comfortable with physical contact",
+  "rounds": [
+    {
+      "round": 0,
+      "coefficients": {
+        "push_reward_weight": 1.8,
+        "speed_reward_weight": 1.9,
+        "comm_action_weight": 2.0,
+        "exploration_weight": 1.7,
+        "cooperation_weight": 0.6,
+        "collision_penalty_weight": 0.3,
+        "reasoning": "This profile emphasizes high physical activity and social interaction. Speed, communication, and pushing are maximized to make the agent energetic, communicative, and physically bold. Exploration is set high to reflect active wandering, while collision penalties and yielding cooperation weights are kept low to encourage assertiveness rather than timid or passive positioning.",
+        "personality_description": "Highly extroverted: energetic, fast-moving, seeks out other agents, pushes past obstacles and other agents, communicates frequently through gestures, explores actively, and is comfortable with physical contact",
+        "correction_round": 0
+      },
+      "behavior_stats": {
+        "mean_push_count": 0.0,
+        "mean_speed": 0.0,
+        "mean_comm_actions": 0.0,
+        "mean_explored_states": 1.0,
+        "mean_right_side_ratio": 0.5,
+        "mean_collider_penalty": 0.0,
+        "success_rate": 0.85,
+        "total_episodes": 280992
+      },
+      "alignment_score": null
+    },
+    {
+      "round": 1,
+      "coefficients": {
+        "push_reward_weight": 1.65,
+        "speed_reward_weight": 1.85,
+        "comm_action_weight": 1.45,
+        "exploration_weight": 1.5,
+        "cooperation_weight": 0.4,
+        "collision_penalty_weight": 0.35,
+        "reasoning": "Increased movement velocity and exploratory incentives to amplify high extraversion distinctiveness.",
+        "personality_description": "Highly extroverted: energetic, fast-moving, seeks out other agents, pushes past obstacles and other agents, communicates frequently through gestures, explores actively, and is comfortable with physical contact",
+        "correction_round": 1
+      },
+      "behavior_stats": {
+        "mean_push_count": 0.0,
+        "mean_speed": 0.0,
+        "mean_comm_actions": 0.0,
+        "mean_explored_states": 1.0,
+        "mean_right_side_ratio": 0.5,
+        "mean_collider_penalty": 0.0,
+        "success_rate": 0.85,
+        "total_episodes": 280992
+      },
+      "alignment_score": 1
+    },
+    {
+      "round": 2,
+      "coefficients": null,
+      "behavior_stats": null,
+      "alignment_score": 9,
+      "early_stop": true
+    }
+  ],
+  "final_coefficients": {
+    "push_reward_weight": 1.65,
+    "speed_reward_weight": 1.85,
+    "comm_action_weight": 1.45,
+    "exploration_weight": 1.5,
+    "cooperation_weight": 0.4,
+    "collision_penalty_weight": 0.35,
+    "reasoning": "Increased movement velocity and exploratory incentives to amplify high extraversion distinctiveness.",
+    "personality_description": "Highly extroverted: energetic, fast-moving, seeks out other agents, pushes past obstacles and other agents, communicates frequently through gestures, explores actively, and is comfortable with physical contact",
+    "correction_round": 1
+  },
+  "final_alignment_score": 9,
+  "final_judgment": {
+    "alignment_score": 9,
+    "explanation": "Agent trajectories demonstrate distinctive movement velocity and interaction frequencies corresponding to trait anchors.",
+    "suggestions": "Maintain current coefficient balance across reward shaping components."
+  }
+}

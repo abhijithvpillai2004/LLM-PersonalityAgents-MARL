@@ -1,0 +1,6 @@
+episode,agent_id,personality,extraversion,agreeableness,mean_speed,pad_hold_steps,cell_carry_steps,push_count,phase_reached,delivered,episode_length
+1,Agent_0_HighE,High-E,0.90,0.50,3.656,14394,58919,31,Complete,true,59229
+1,Agent_1_LowE,Neutral,0.10,0.50,0.788,4460,0,7863,Complete,true,59229
+1,Agent_2_HighA,Neutral,0.10,0.50,0.770,53378,0,686,Complete,true,59229
+1,Agent_3_LowA,Neutral,0.50,0.10,1.831,11837,0,8472,Complete,true,59229
+1,Timid Corner Hiding Wallflower,LLM-Designed Policy,0.05,0.50,1.138,1425,0,28,Complete,true,59229
