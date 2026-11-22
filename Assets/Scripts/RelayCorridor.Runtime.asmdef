@@ -1,0 +1,19 @@
+{
+    "name": "RelayCorridor.Runtime",
+    "rootNamespace": "RelayCorridor",
+    "references": [
+        "Unity.ML-Agents",
+        "Unity.InputSystem",
+        "Unity.TextMeshPro",
+        "Unity.InferenceEngine"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

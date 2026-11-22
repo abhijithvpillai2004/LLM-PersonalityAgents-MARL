@@ -1,0 +1,20 @@
+{
+    "name": "RelayCorridor.Editor",
+    "rootNamespace": "RelayCorridor.Editor",
+    "references": [
+        "RelayCorridor.Runtime",
+        "Unity.ML-Agents",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
