@@ -1,0 +1,19 @@
+{
+  "persona_name": "Timid Corner Hiding Wallflower",
+  "speed_match_scale": 0.001,
+  "pad_hold_scale": 0.001,
+  "cell_proximity_scale": 0.001,
+  "gate_proximity_scale": 0.001,
+  "receiver_proximity_scale": 0.001,
+  "idle_penalty": 0.0,
+  "push_penalty_scale": 0.1,
+  "target_speed": 1.0,
+  "exploration_bonus": 0.01,
+  "event_rewards": {
+    "pad_activated": 0.1,
+    "gate_opened": 0.5,
+    "cell_picked_up": 0.2,
+    "cell_delivered": 2.0,
+    "timeout_penalty": 0.2
+  }
+}

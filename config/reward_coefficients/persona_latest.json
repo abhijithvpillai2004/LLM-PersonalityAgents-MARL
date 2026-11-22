@@ -1,0 +1,17 @@
+{
+  "persona_name": "Timid Corner Hiding Wallflower",
+  "extraversion": 0.05,
+  "agreeableness": 0.5,
+  "speed_preference": "slow",
+  "pad_holding_tendency": "low",
+  "cell_carrying_tendency": "low",
+  "push_tolerance": "avoidant",
+  "exploration_tendency": "low",
+  "expected_behavioral_profile": {
+    "mean_speed_rank": "lowest",
+    "pad_hold_steps_rank": "lowest",
+    "push_count_rank": "lowest",
+    "cell_carry_steps_rank": "lowest"
+  },
+  "natural_language_summary": "The agent immediately retreats to a secluded corner of the chamber and remains stationary, avoiding contact with teammates, the energy cell, and relay pads."
+}

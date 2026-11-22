@@ -1,0 +1,64 @@
+# ==============================================================================
+# RELAY CORRIDOR — TRAINER CONFIGURATION: HIGH EXTRAVERSION (Agent 0)
+# Personality Profile: Extraversion E=0.9, Agreeableness A=0.1
+# Behavioral Intent: High speed, aggressive corridor transit, high exploration,
+#                    low tolerance for waiting, active engagement with the energy cell.
+# ==============================================================================
+
+behaviors:
+  RelayAgent:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 2048
+      buffer_size: 20480
+      learning_rate: 0.0003
+      
+      # ------------------------------------------------------------------------
+      # OCEAN PARAMETER 1: BETA (Entropy Regularization)
+      # High-E setting: beta = 0.01 (Baseline/Low-E is 0.003)
+      # PSYCHOLOGICAL RATIONALE (OCEAN Extraversion Theory):
+      # Extraversion in Big Five theory correlates with sensation-seeking,
+      # social assertiveness, and behavioral variance. High beta prevents the
+      # policy from collapsing into conservative, repetitive movement routines.
+      # It maintains high exploratory action entropy throughout the 3M step run,
+      # encouraging the agent to discover fast paths and dynamic overtaking maneuvers.
+      # ------------------------------------------------------------------------
+      beta: 0.01
+      
+      epsilon: 0.2
+      lambd: 0.95
+      num_epoch: 3
+      learning_rate_schedule: linear
+
+    network_settings:
+      normalize: true
+      hidden_units: 256
+      num_layers: 3
+      vis_encode_type: simple
+
+    reward_signals:
+      extrinsic:
+        gamma: 0.99
+        strength: 1.0
+
+      # ------------------------------------------------------------------------
+      # OCEAN PARAMETER 2: CURIOSITY INTRINSIC REWARD (Exploration Drive)
+      # High-E setting: curiosity strength = 0.05 (Low-E/High-A is 0.01)
+      # PSYCHOLOGICAL RATIONALE (OCEAN Extraversion Theory):
+      # Extraverted agents possess higher dopamine receptor sensitivity in reward
+      # anticipation circuits, driving them toward novel states and active environment
+      # traversal. Elevated curiosity strength rewards the agent for moving across
+      # unvisited regions of the corridor and engaging with the cell ahead of peers.
+      # ------------------------------------------------------------------------
+      curiosity:
+        gamma: 0.99
+        strength: 0.05
+        network_settings:
+          hidden_units: 256
+          num_layers: 3
+        learning_rate: 0.0003
+
+    keep_checkpoints: 5
+    max_steps: 3000000
+    time_horizon: 128
+    summary_freq: 50000
