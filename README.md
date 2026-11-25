@@ -22,7 +22,7 @@ An open-source multi-agent research benchmark investigating the emergence of fun
 - [System Architecture](#system-architecture)
 - [The 4-Chamber Relay Corridor Environment](#the-4-chamber-relay-corridor-environment)
 - [Agent Perception & Action Spaces](#agent-perception--action-spaces)
-- [The LLM-Mediated Reward Design Loop (Novelty)](#the-llm-mediated-reward-design-loop-novelty)
+- [The LLM-Mediated Reward Design Loop](#the-llm-mediated-reward-design-loop)
 - [Empirical Results & Benchmark Telemetry](#empirical-results--benchmark-telemetry)
 - [Installation & Setup](#installation--setup)
 - [How to Run](#how-to-run)
@@ -148,7 +148,7 @@ Conditioning agents on internal OCEAN dials forces distinct, stable behavioral p
 
 ---
 
-## The LLM-Mediated Reward Design Loop (Novelty)
+## The LLM-Mediated Reward Design Loop
 
 Traditional reward shaping requires tedious trial-and-error. Our system formalizes an **automated hypothesis-and-critique loop**:
 
@@ -198,8 +198,8 @@ Empirical evaluation across 100 benchmark episodes demonstrates substantial gain
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<username>/PersonalityAgents.git
-cd PersonalityAgents
+git clone https://github.com/abhijithvpillai2004/LLM-PersonalityAgents-MARL.git
+cd LLM-PersonalityAgents-MARL
 ```
 
 ### 2. Configure Python Environment
