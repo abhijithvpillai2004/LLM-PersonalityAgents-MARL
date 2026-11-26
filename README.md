@@ -272,9 +272,9 @@ This project was engineered and researched by a team of three contributors, with
 
 | Team Member | Core Role | Technical Contributions & Focus Areas |
 |:---|:---|:---|
-| **Abhijith**<br>([@abhijithvpillai2004](https://github.com/abhijithvpillai2004)) | **Reinforcement Learning & ML Architecture Lead** | • Designed the multi-agent Proximal Policy Optimization (PPO) training curriculum and GAE configurations.<br>• Formulated the 34-dimensional sensory perception pipeline (kinematic odometry, relative guidance vectors, 10-ray obstacle sweeps).<br>• Established the 20-second dynamic reward alternation cycle ($\alpha R_{\text{Task}} + (1-\alpha) R_{\text{Persona}}$).<br>• Conducted statistical evaluation benchmarks, role stability indices ($S_{\text{role}}$), and baseline comparative analyses. |
-| **Kishen**<br>([@theshenman](https://github.com/theshenman)) | **LLM Integration & Autonomous Reward Engineering Lead** | • Architected the offline closed-loop LLM reward design and self-correction pipeline.<br>• Integrated the Google GenAI SDK (Gemini 3.8 Flash) with automated retry and structured JSON schema enforcement.<br>• Engineered the semantic persona parser mapping natural language prose to OCEAN personality coordinates.<br>• Formulated the qualitative gap analysis critique prompts and alignment scoring rubrics ($1-10$ alignment threshold). |
-| **Siddharth**<br>([@TheSidPil](https://github.com/TheSidPil)) | **Simulation Environment & Systems Engineering Lead** | • Engineered the 84-meter 4-chamber progressive relay corridor in Unity 6000.5 LTS using PhysX 5.0.<br>• Implemented mass-sensitive trigger pressure plates, vertical sliding gates, and permanent door-latching mechanics.<br>• Built the custom Unity Editor Live Policy Generator Window (`UnityEditor`, async process streaming, regex log scraping).<br>• Developed the real-time ONNX hot-swap bridge (`LivePolicyLoader.cs`) and in-viewport visual telemetry HUD. |
+| **Abhijith**<br>([@abhijithvpillai2004](https://github.com/abhijithvpillai2004) · `abhijithvpillai2023@gmail.com`) | **Reinforcement Learning & ML Architecture Lead** | • Designed the multi-agent Proximal Policy Optimization (PPO) training curriculum and GAE configurations.<br>• Formulated the 34-dimensional sensory perception pipeline (kinematic odometry, relative guidance vectors, 10-ray obstacle sweeps).<br>• Established the 20-second dynamic reward alternation cycle ($\alpha R_{\text{Task}} + (1-\alpha) R_{\text{Persona}}$).<br>• Conducted statistical evaluation benchmarks, role stability indices ($S_{\text{role}}$), and baseline comparative analyses. |
+| **Kishen**<br>([@theshenman](https://github.com/theshenman) · `kikishenshen18@gmail.com`) | **LLM Integration & Autonomous Reward Engineering Lead** | • Architected the offline closed-loop LLM reward design and self-correction pipeline.<br>• Integrated the Google GenAI SDK (Gemini 3.8 Flash) with automated retry and structured JSON schema enforcement.<br>• Engineered the semantic persona parser mapping natural language prose to OCEAN personality coordinates.<br>• Formulated the qualitative gap analysis critique prompts and alignment scoring rubrics ($1-10$ alignment threshold). |
+| **Siddharth**<br>([@TheSidPil](https://github.com/TheSidPil) · `siddharthpillai1000@gmail.com`) | **Simulation Environment & Systems Engineering Lead** | • Engineered the 84-meter 4-chamber progressive relay corridor in Unity 6000.5 LTS using PhysX 5.0.<br>• Implemented mass-sensitive trigger pressure plates, vertical sliding gates, and permanent door-latching mechanics.<br>• Built the custom Unity Editor Live Policy Generator Window (`UnityEditor`, async process streaming, regex log scraping).<br>• Developed the real-time ONNX hot-swap bridge (`LivePolicyLoader.cs`) and in-viewport visual telemetry HUD. |
 
 ---
 
@@ -286,7 +286,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 If you use this codebase or benchmark in your research, please cite:
 ```bibtex
 @misc{pillai2026personalitymarl,
-  author = {Abhijith and Kishen and Siddharth},
+  author = {Abhijith V Pillai and Kishen and Siddharth Pillai},
   title = {LLM-Mediated Reward Design for Personality-Diverse Game Agents},
   year = {2026}
 }
